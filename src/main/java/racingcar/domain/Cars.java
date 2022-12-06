@@ -14,4 +14,8 @@ public class Cars {
 	public void moveOneTime() {
 
 	}
+
+	public List<Car> getRaceCars() {
+		return raceCars;
+	}
 }
