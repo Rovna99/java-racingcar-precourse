@@ -3,8 +3,6 @@ package racingcar.domain;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import racingcar.Car;
-
 public class RaceProgressState {
 	private final Map<Car, Integer> raceState = new LinkedHashMap<>();
 
